@@ -1,5 +1,29 @@
 # Changelog
 
+## [0.24.0](https://github.com/fluencelabs/nox/compare/nox-v0.23.6...nox-v0.24.0) (2024-04-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* **core-manager:** use hex format for CUIDs [fixes NET-804] ([#2188](https://github.com/fluencelabs/nox/issues/2188))
+
+### Features
+
+* **config:** expose config via http endpoint ([#2190](https://github.com/fluencelabs/nox/issues/2190)) ([04862bb](https://github.com/fluencelabs/nox/commit/04862bbf229c23eb3259f5d89e2565e8e3cfc218))
+* **core-manager:** add dev core manager to support any number of CUs [fixes NET-799] ([#2167](https://github.com/fluencelabs/nox/issues/2167)) ([e061413](https://github.com/fluencelabs/nox/commit/e06141398959c5ba15612eecae542c41e0a96ef0))
+* **log:** custom log format ([41faf0b](https://github.com/fluencelabs/nox/commit/41faf0b89076282b22b95508654b0a33afefcaa7))
+* **log:** custom log format [fixes NET-724 NET-725] ([#2218](https://github.com/fluencelabs/nox/issues/2218)) ([41faf0b](https://github.com/fluencelabs/nox/commit/41faf0b89076282b22b95508654b0a33afefcaa7))
+* **metrics:** add metrics in chain-listener [NET-806] ([#2208](https://github.com/fluencelabs/nox/issues/2208)) ([3f17b11](https://github.com/fluencelabs/nox/commit/3f17b114352962087e50125897459bf1231cadaa))
+
+
+### Bug Fixes
+
+* add block number value to the metrics ([#2219](https://github.com/fluencelabs/nox/issues/2219)) ([39f71d7](https://github.com/fluencelabs/nox/commit/39f71d7a8a02f1ebce5bba6125769d119e96ac42))
+* **cc:** Continue CCP calculation if cpu_cores &lt; cu_number [fixes NET-808] ([#2207](https://github.com/fluencelabs/nox/issues/2207)) ([d3d5f27](https://github.com/fluencelabs/nox/commit/d3d5f27146ec29505f5f63bfd0615f61b69a2375))
+* **chain-connector:** make connector generic ([#2229](https://github.com/fluencelabs/nox/issues/2229)) ([90957a6](https://github.com/fluencelabs/nox/commit/90957a67a9b64f20b2ed6ec42a996bf5787d2890))
+* **core-manager:** use hex format for CUIDs [fixes NET-804] ([#2188](https://github.com/fluencelabs/nox/issues/2188)) ([415f917](https://github.com/fluencelabs/nox/commit/415f917b37a89c0d9212d6e1f16c42645bfce152))
+* **core-mapping:** start cpus_range from 1 on 8+ cores ([#2189](https://github.com/fluencelabs/nox/issues/2189)) ([14d37b3](https://github.com/fluencelabs/nox/commit/14d37b37fc4bad5f2c534d4b39b61159e6c0af52))
+
 ## [0.23.6](https://github.com/fluencelabs/nox/compare/nox-v0.23.5...nox-v0.23.6) (2024-03-18)
 
 
