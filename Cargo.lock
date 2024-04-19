@@ -1373,7 +1373,7 @@ dependencies = [
  "peer-metrics",
  "serde",
  "serde_json",
- "server-config",
+ "tempfile",
  "thiserror",
  "tokio",
  "tokio-stream",
